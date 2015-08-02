@@ -14,26 +14,44 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnTopLeft = (Button)findViewById(R.id.btnTopLeft);
-    Button btnTopCenter = (Button)findViewById(R.id.btnTopCenter);
-    Button btnTopRight = (Button)findViewById(R.id.btnTopRight);
-    Button btnMidLeft=(Button)findViewById(R.id.btnMidLeft);
-    Button btnMidCenter=(Button)findViewById(R.id.btnMidCenter);
-    Button btnMidRight =(Button)findViewById(R.id.btnMidRight);
-    Button btnBotLeft = (Button)findViewById(R.id.btnBotLeft);
-    Button btnBotCenter= (Button)findViewById(R.id.btnBotCenter);
-    Button btnBotRight= (Button)findViewById(R.id.btnBotRight);
 
-    TextView txtOutMessages = (TextView)findViewById(R.id.outputMessages);
+    Button btnTopLeft;
+    Button btnTopCenter;
+    Button btnTopRight;
+    Button btnMidLeft;
+    Button btnMidCenter;
+    Button btnMidRight;
+    Button btnBotLeft;
+    Button btnBotCenter;
+    Button btnBotRight;
 
-    boolean Xturn =false;
-    boolean winner = false;
-    boolean winConditionOne =false;
-    boolean winConditionTwo = false;
-    boolean winConditionThree= false;
+    TextView txtOutMessages;
 
+    boolean Xturn;
+    boolean winner;
+    boolean winConditionOne;
+    boolean winConditionTwo;
+    boolean winConditionThree;
 
+    public MainActivity() {
+        btnTopLeft = (Button)findViewById(R.id.btnTopLeft);
+        btnTopCenter = (Button)findViewById(R.id.btnTopCenter);
+        btnTopRight = (Button)findViewById(R.id.btnTopRight);
+        btnMidLeft = (Button)findViewById(R.id.btnMidLeft);
+        btnMidCenter = (Button)findViewById(R.id.btnMidCenter);
+        btnMidRight = (Button)findViewById(R.id.btnMidRight);
+        btnBotLeft = (Button)findViewById(R.id.btnBotLeft);
+        btnBotCenter = (Button)findViewById(R.id.btnBotCenter);
+        btnBotRight = (Button)findViewById(R.id.btnBotRight);
 
+        txtOutMessages = (TextView)findViewById(R.id.outputMessages);
+
+        Xturn = false;
+        winner = false;
+        winConditionOne = false;
+        winConditionTwo = false;
+        winConditionThree = false;
+    }
 
 
     @Override
