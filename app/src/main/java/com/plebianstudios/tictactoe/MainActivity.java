@@ -1,7 +1,7 @@
 package com.plebianstudios.tictactoe;
 
 
-import android.graphics.Color;
+
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startTicTacToe(){
-        Intent intent = new Intent(this,TicTacToe.class);
+        Intent intent = new Intent(this,Tictactoe.class);
         startActivity(intent);
 
     }

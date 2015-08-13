@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TicTacToe"
+            android:name=".Tictactoe"
             android:label="TicTacToe">
 
         </activity>
